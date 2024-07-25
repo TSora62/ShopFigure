@@ -1,0 +1,78 @@
+css
+/* account.css */
+
+/* Đặt màu nền cho body */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Tùy chỉnh navbar */
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+/* Tùy chỉnh tiêu đề */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+/* Tùy chỉnh form */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Tùy chỉnh button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Tùy chỉnh phần đăng ký */
+h5 {
+    margin-top: 30px;
+    text-align: center;
+    color: #495057;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}

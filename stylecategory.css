@@ -1,0 +1,57 @@
+css
+/* category.css */
+
+/* Đặt màu nền cho body */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Tùy chỉnh navbar */
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+/* Tùy chỉnh tiêu đề */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+/* Tùy chỉnh danh sách danh mục */
+.list-group {
+    max-width: 600px;
+    margin: 0 auto; /* Căn giữa danh sách */
+    border-radius: 5px;
+    overflow: hidden; /* Để các phần tử không bị tràn ra ngoài */
+}
+
+/* Tùy chỉnh các mục trong danh sách */
+.list-group-item {
+    border: 1px solid #ced4da;
+    border-radius: 0; /* Không bo tròn góc */
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.list-group-item:hover {
+    background-color: #007bff; /* Màu nền khi hover */
+    color: white; /* Thay đổi màu chữ khi hover */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .list-group {
+        max-width: 100%; /* Đảm bảo danh sách chiếm toàn bộ chiều rộng trên màn hình nhỏ */
+    }
+}
